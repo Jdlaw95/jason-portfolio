@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="min-h-screen text-white" style={{ backgroundColor: "#0a0a0a" }}>
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-8 py-6">
-        <span className="text-lg font-semibold tracking-tight">Jason</span>
+        <span className="text-lg font-semibold tracking-tight">Jason Lawrence</span>
         <ul className="flex gap-8 text-sm">
           <li>
             <Link href="/projects" className="text-zinc-400 hover:text-white transition-colors">
