@@ -25,7 +25,7 @@ export default function Home() {
       </nav>
 
       <main className="flex min-h-[calc(100vh-80px)] flex-col items-center justify-center px-8 text-center">
-        <h1 className="text-6xl font-bold tracking-tight">Jason</h1>
+        <h1 className="text-6xl font-bold tracking-tight">Jason Lawrence</h1>
         <p className="mt-4 text-xl text-zinc-400">
           Builder of apps, workflows, and AI tools
         </p>
