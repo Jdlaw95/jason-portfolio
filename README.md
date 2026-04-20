@@ -1,15 +1,15 @@
-# Jason's Developer Portfolio
+# Jason Developer Portfolio
 
 Personal portfolio site built with Next.js 14, Tailwind CSS, and deployed on Vercel.
 
-## Live Site
+ Live Site
 [portfolio.kaiblu.co.za](https://portfolio.kaiblu.co.za)
 
-## Tech Stack
+Tech Stack
 - Next.js 14 (App Router)
 - Tailwind CSS
 - Vercel (deployment)
 
-## Running Locally
+Running Locally
 npm install
 npm run dev
