@@ -12,6 +12,7 @@ const skills = [
   "Vercel",
   "Java",
   "Swift",
+  "Python (Learning)",
   
 ];
 
