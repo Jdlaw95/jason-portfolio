@@ -1,28 +1,10 @@
 import Link from "next/link";
+import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
     <div className="min-h-screen text-white" style={{ backgroundColor: "#0a0a0a" }}>
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-8 py-6">
-        <span className="text-lg font-semibold tracking-tight">Jason Lawrence</span>
-        <ul className="flex gap-8 text-sm">
-          <li>
-            <Link href="/projects" className="text-zinc-400 hover:text-white transition-colors">
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" className="text-zinc-400 hover:text-white transition-colors">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact" className="text-zinc-400 hover:text-white transition-colors">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <Nav />
 
       <main className="flex min-h-[calc(100vh-80px)] flex-col items-center justify-center px-8 text-center">
         <h1 className="text-6xl font-bold tracking-tight">Jason Lawrence</h1>

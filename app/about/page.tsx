@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Nav from "@/components/Nav";
 
 const skills = [
   "Next.js",
@@ -18,28 +18,7 @@ const skills = [
 export default function About() {
   return (
     <div className="min-h-screen text-white" style={{ backgroundColor: "#0a0a0a" }}>
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-8 py-6">
-        <Link href="/" className="text-lg font-semibold tracking-tight text-white">
-          Jason Lawrence
-        </Link>
-        <ul className="flex gap-8 text-sm">
-          <li>
-            <Link href="/projects" className="text-zinc-400 hover:text-white transition-colors">
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" className="text-white transition-colors">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact" className="text-zinc-400 hover:text-white transition-colors">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <Nav />
 
       <main className="mx-auto max-w-5xl px-8 py-16">
         {/* Hero */}
