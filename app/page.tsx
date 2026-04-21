@@ -38,7 +38,7 @@ export default function Home() {
             View My Work
           </Link>
           <Link
-            href="/contact"
+            href="mailto:kaiblu26@gmail.com"
             className="rounded-lg border border-zinc-700 px-6 py-3 text-sm font-medium text-white hover:border-zinc-500 transition-colors"
           >
             Get In Touch
