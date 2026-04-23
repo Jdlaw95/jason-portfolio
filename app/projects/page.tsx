@@ -22,6 +22,14 @@ const projects = [
   tags: ["Next.js", "Supabase", "TypeScript", "API Routes"],
   link: "https://link-shortener-gamma-five.vercel.app"
   },
+
+  {
+  title: "Task Manager",
+  description: "Full-stack CRUD application with real-time data persistence. Create, complete, and delete tasks stored in a Supabase PostgreSQL database.",
+  tags: ["Next.js", "Supabase", "TypeScript", "PostgreSQL"],
+  link: "https://task-manager-9p4kk35a8-jdlaw95s-projects.vercel.app"
+  },
+  
 ];
 
 export default function Projects() {
