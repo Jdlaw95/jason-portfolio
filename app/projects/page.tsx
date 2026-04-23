@@ -15,6 +15,13 @@ const projects = [
     tags: ["n8n", "Claude AI", "Automation"],
     href: "https://kaiblu.co.za/workflows/dentist-ai-agent",
   },
+
+  {
+  title: "Link Shortener",
+  description: "Full-stack URL shortener with server-side redirects, click tracking, and a REST API. Built with Next.js API routes and Supabase.",
+  tags: ["Next.js", "Supabase", "TypeScript", "API Routes"],
+  link: "https://link-shortener-gamma-five.vercel.app"
+  },
 ];
 
 export default function Projects() {
